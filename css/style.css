@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --navigation-background: #012d63;
+  --maintext: #ffffff;
+  --sidetext: #c7c7c7;
+  --button: #8e32c6;
+  --background-text: #959595;
+  --footer: #021635;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  color: var(--maintext);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: var(--navigation-background);
+  height: 93px;
+  width: 100vw;
+}
+.nav-logo {
+  height: 60px;
+  width: 100px;
+  margin-left: 168px;
+  margin-top: 10px;
+}
+.nav-links {
+  display: flex;
+  column-gap: 28px;
+  margin-left: 152px;
+}
+.nav-item {
+  text-decoration: none;
+  color: var(--sidetext);
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 24px;
+}
+.nav-item:hover {
+  color: var(--maintext);
+  font-weight: 400;
+}
+.nav-switcher {
+  display: flex;
+  margin-left: 73px;
+  column-gap: 12px;
+}
+.nav-switcher_lan {
+  font-weight: 300;
+  font-size: 24px;
+  font-family: "Roboto";
+  color: var(--sidetext);
+}
+.nav-switcher_lan:hover {
+  font-weight: 350;
+  color: var(--maintext);
+}
+
+.nike_shoe {
+  height: 858px;
+  display: flex;
+  flex-direction: column;
+  background: url("../img/shoue.png") center/cover no-repeat;
+}
+
+.nikelogo {
+  width: 160px;
+  height: 120px;
+  position: absolute;
+  left: 170px;
+  top: 184px;
+}
+
+.cr {
+  color: var(--maintext);
+  font-weight: 400;
+  font-size: 48px;
+  font-family: "";
+  margin-left: 178px;
+  margin-top: 179px;
+}
+
+.main-colorawe {
+  color: var(--maintext);
+  font-weight: 400;
+  font-size: 144px;
+  font-family: "Playfair Display";
+  margin-left: 156px;
+  margin-top: -5px;
+}
+
+.main-text {
+  color: var(--maintext);
+  font-weight: 400;
+  font-size: 18px;
+  width: 508px;
+  margin-left: 164px;
+  margin-top: 12px;
+}
+
+.main-button {
+  width: 254px;
+  height: 67px;
+  margin-top: 41px;
+  margin-left: 164px;
+  background-color: var(--button);
+  color: var(--maintext);
+  font-weight: 100;
+  font-size: 24px;
+  border-radius: 10px;
+}
+.main-dream {
+  color: var(--maintext);
+  font-weight: 400;
+  font-size: 72px;
+  font-family: "Playfair Display";
+  margin-left: 164px;
+}
+
+.advantages {
+  background: url("../img/background.png");
+  height: 606px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.advantages-border {
+  height: 396px;
+  width: 1110px;
+  border: 5px var(--button) solid;
+}
+.three-advantages {
+  width: 1010px;
+  height: 246px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 25px 50px;
+}
+.advantages-text {
+  color: var(--maintext);
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  font-family: "Playfair Display";
+}
+.quality {
+  margin-right: 50px;
+}
+.stars-im {
+  margin-top: 4px;
+  margin-right: 50px;
+}
+.stars {
+  border-right: 1px solid #fff;
+  width: 290px;
+  height: 346px;
+}
+.grafiti-im {
+  margin-bottom: 10px;
+}
+.garafiti {
+  width: 240px;
+}
+
+.auto-im {
+  margin-top: 6px;
+  margin-left: 50px;
+}
+.shopping {
+  margin-left: 50px;
+}
+.auto {
+  width: 290px;
+  border-left: 1px solid #fff;
+  height: 346px;
+}
+.reviews {
+  background: url("../img/review-background.png");
+  height: 520px;
+  border-top: 2px solid #fff;
+  width: 1440px;
+}
+.flower-im {
+  position: absolute;
+  top: 1698px;
+}
+.reviews-title {
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  color: var(--maintext);
+  font-family: "Playfair Display";
+  margin-top: 30px;
+}
+
+.different-reviews {
+  width: 951px;
+  height: 292px;
+  margin-top: 37px;
+  margin-left: 244px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-box {
+  width: 255px;
+  height: 292px;
+}
+
+.blue-review {
+  border-radius: 15px;
+  box-shadow: 0 14px 0 -5px #7b54b2, 0 30px 0 -13px #533978;
+  background: linear-gradient(
+    135deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+}
+.pink-review {
+  border-radius: 15px;
+  box-shadow: 0 14px 0 -5px #9159b1, 0 30px 0 -13px #61337c;
+  background: linear-gradient(
+    135deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+}
+.orange-review {
+  border-radius: 15px;
+  box-shadow: 0 14px 0 -5px #b95a4c, 0 30px 0 -13px #732f26;
+  background: linear-gradient(
+    135deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+}
+.text-review {
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 49px;
+  margin-left: 17px;
+}
+.date-text {
+  color: var(--sidetext);
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 18px;
+}
+
+.person {
+  margin-top: 47px;
+  margin-left: 18px;
+  display: flex;
+}
+.photo {
+  height: 31px;
+  width: 31px;
+}
+.info {
+  margin-left: 5px;
+}
+.name {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 4px;
+  margin-top: 1px;
+}
+.with-us-text {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.order {
+  background: url("../img/leafes.png");
+  height: 509px;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.order-title {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 48px;
+  font-family: "Playfair Display";
+}
+.confirm {
+  background-color: var(--maintext);
+  color: var(--background-text);
+  position: absolute;
+  width: 100.81px;
+  height: 33.67px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.81px;
+  top: 127px;
+  left: 890px;
+  border-style: none;
+}
+
+.order-form {
+  margin-top: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 354px;
+}
+
+.input-email {
+   padding-left: 40px;
+  width: 650px;
+  height: 60px;
+  border-radius: 50px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.81px;
+  border: none;
+}
+
+.input-field {
+    padding-left: 30px;
+  width: 550px;
+  height: 50px;
+  border-radius: 50px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  border: none;
+}
+
+.order-button {
+  background-color: var(--button);
+  border-radius: 16px;
+  width: 248px;
+  height: 68px;
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--maintext);
+}
+footer{
+    height: 292px;
+    width: 1440px;
+    background-color: var(--footer);
+}
+.footer-qa{
+    display: flex;
+    flex-direction: row;
+    margin-left: 165px;
+    margin-top: 45px;
+    width: 1111px;
+    border-bottom: 1px solid #9b9b9b;
+    height: 124px;
+}
+.footer-questions{
+    display: flex;
+    flex-direction: column;
+
+}
+.item{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.item-e{
+    font-weight: 400;
+font-size: 24px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+margin-bottom: 10px;
+}
+.footer-emails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 384px;
+    margin-left: 373px;
+}
+.footer-information{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 7px;
+    margin-top: 23px;
+    margin-left: 165px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.footer-nike-logo{
+    width: 108px;
+height: 81px;
+position: relative;
+margin-left: 724px;
+}
+.footer-cr{
+    font-weight: 400;
+font-size: 24px;
+font-family: "PT Serif";
+position: absolute;
+right: 184px;
+margin-top: -17px;
+}
